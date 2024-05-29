@@ -1,5 +1,5 @@
-const Todos = () => {
-    return <div>todos</div>
+const TodosPage = () => {
+    return <div>TodosPage</div>
 }
 
-export default Todos
+export default TodosPage
