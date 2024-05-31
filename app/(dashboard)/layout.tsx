@@ -1,8 +1,4 @@
-interface DashboardLayoutProps {
-    children: React.ReactNode;
-}
-
-const DashboardLayout: React.FC<DashboardLayoutProps> = ({children}) => {
+const DashboardLayout = ({children}: {children: React.ReactNode}) => {
     return (
         <div>
             <h1>dashboard</h1>
